@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		483A4A1D217597CA0089A5DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A1C217597CA0089A5DB /* AppDelegate.m */; };
-		483A4A20217597CA0089A5DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A1F217597CA0089A5DB /* ViewController.m */; };
 		483A4A23217597CA0089A5DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483A4A21217597CA0089A5DB /* Main.storyboard */; };
 		483A4A25217597CD0089A5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483A4A24217597CD0089A5DB /* Assets.xcassets */; };
 		483A4A28217597CD0089A5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483A4A26217597CD0089A5DB /* LaunchScreen.storyboard */; };
 		483A4A2B217597CD0089A5DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A2A217597CD0089A5DB /* main.m */; };
 		483A4A35217597CE0089A5DB /* SHRoundViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A34217597CE0089A5DB /* SHRoundViewTests.m */; };
 		483A4A40217597CE0089A5DB /* SHRoundViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A3F217597CE0089A5DB /* SHRoundViewUITests.m */; };
+		483A4A58217599610089A5DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A52217599610089A5DB /* AppDelegate.m */; };
+		483A4A5C217599DE0089A5DB /* SHRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A5B217599DE0089A5DB /* SHRotationGestureRecognizer.m */; };
+		483A4A5F21759A0D0089A5DB /* SHRoundview.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A5E21759A0D0089A5DB /* SHRoundview.m */; };
+		483A4A6221759A3C0089A5DB /* SHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A6121759A3C0089A5DB /* SHBaseViewController.m */; };
+		483A4A6521759B0C0089A5DB /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A6421759B0C0089A5DB /* HomeModel.m */; };
+		483A4A6821759B850089A5DB /* SHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A4A6721759B850089A5DB /* SHViewController.m */; };
+		4896538F2177439100DD9C0E /* BtnList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4896538E2177439100DD9C0E /* BtnList.plist */; };
+		489653982177528900DD9C0E /* SHBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489653972177528900DD9C0E /* SHBusinessViewController.m */; };
+		4896539B217752B400DD9C0E /* SHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896539A217752B400DD9C0E /* SHHomeViewController.m */; };
+		4896539F217752DD00DD9C0E /* SHIncreaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896539D217752DD00DD9C0E /* SHIncreaseViewController.m */; };
+		489653A3217753AB00DD9C0E /* SHManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489653A2217753AB00DD9C0E /* SHManagementViewController.m */; };
+		489653A6217753D200DD9C0E /* SHMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489653A5217753D200DD9C0E /* SHMessageViewController.m */; };
+		48F0832F217EC21F00770B7F /* SHHomeTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F0832E217EC21F00770B7F /* SHHomeTwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +47,6 @@
 
 /* Begin PBXFileReference section */
 		483A4A18217597CA0089A5DB /* SHRoundView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHRoundView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		483A4A1B217597CA0089A5DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		483A4A1C217597CA0089A5DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		483A4A1E217597CA0089A5DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		483A4A1F217597CA0089A5DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		483A4A22217597CA0089A5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		483A4A24217597CD0089A5DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483A4A27217597CD0089A5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,32 @@
 		483A4A3B217597CE0089A5DB /* SHRoundViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHRoundViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		483A4A3F217597CE0089A5DB /* SHRoundViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRoundViewUITests.m; sourceTree = "<group>"; };
 		483A4A41217597CE0089A5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483A4A51217599610089A5DB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		483A4A52217599610089A5DB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		483A4A5A217599DE0089A5DB /* SHRotationGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		483A4A5B217599DE0089A5DB /* SHRotationGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		483A4A5D21759A0D0089A5DB /* SHRoundview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRoundview.h; sourceTree = "<group>"; };
+		483A4A5E21759A0D0089A5DB /* SHRoundview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRoundview.m; sourceTree = "<group>"; };
+		483A4A6021759A3C0089A5DB /* SHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHBaseViewController.h; sourceTree = "<group>"; };
+		483A4A6121759A3C0089A5DB /* SHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHBaseViewController.m; sourceTree = "<group>"; };
+		483A4A6321759B0C0089A5DB /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		483A4A6421759B0C0089A5DB /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		483A4A6621759B850089A5DB /* SHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHViewController.h; sourceTree = "<group>"; };
+		483A4A6721759B850089A5DB /* SHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHViewController.m; sourceTree = "<group>"; };
+		4896538D21773AFF00DD9C0E /* SHRoundView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHRoundView-Prefix.pch"; sourceTree = "<group>"; };
+		4896538E2177439100DD9C0E /* BtnList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BtnList.plist; sourceTree = "<group>"; };
+		489653962177528900DD9C0E /* SHBusinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHBusinessViewController.h; sourceTree = "<group>"; };
+		489653972177528900DD9C0E /* SHBusinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHBusinessViewController.m; sourceTree = "<group>"; };
+		48965399217752B400DD9C0E /* SHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHHomeViewController.h; sourceTree = "<group>"; };
+		4896539A217752B400DD9C0E /* SHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHHomeViewController.m; sourceTree = "<group>"; };
+		4896539C217752DD00DD9C0E /* SHIncreaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHIncreaseViewController.h; sourceTree = "<group>"; };
+		4896539D217752DD00DD9C0E /* SHIncreaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHIncreaseViewController.m; sourceTree = "<group>"; };
+		489653A1217753AB00DD9C0E /* SHManagementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHManagementViewController.h; sourceTree = "<group>"; };
+		489653A2217753AB00DD9C0E /* SHManagementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHManagementViewController.m; sourceTree = "<group>"; };
+		489653A4217753D200DD9C0E /* SHMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHMessageViewController.h; sourceTree = "<group>"; };
+		489653A5217753D200DD9C0E /* SHMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHMessageViewController.m; sourceTree = "<group>"; };
+		48F0832D217EC21F00770B7F /* SHHomeTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHHomeTwoViewController.h; sourceTree = "<group>"; };
+		48F0832E217EC21F00770B7F /* SHHomeTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHHomeTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +134,14 @@
 		483A4A1A217597CA0089A5DB /* SHRoundView */ = {
 			isa = PBXGroup;
 			children = (
-				483A4A1B217597CA0089A5DB /* AppDelegate.h */,
-				483A4A1C217597CA0089A5DB /* AppDelegate.m */,
-				483A4A1E217597CA0089A5DB /* ViewController.h */,
-				483A4A1F217597CA0089A5DB /* ViewController.m */,
+				483A4A4D217599610089A5DB /* Classes */,
 				483A4A21217597CA0089A5DB /* Main.storyboard */,
 				483A4A24217597CD0089A5DB /* Assets.xcassets */,
 				483A4A26217597CD0089A5DB /* LaunchScreen.storyboard */,
+				4896538D21773AFF00DD9C0E /* SHRoundView-Prefix.pch */,
 				483A4A29217597CD0089A5DB /* Info.plist */,
 				483A4A2A217597CD0089A5DB /* main.m */,
+				4896538E2177439100DD9C0E /* BtnList.plist */,
 			);
 			path = SHRoundView;
 			sourceTree = "<group>";
@@ -130,6 +162,85 @@
 				483A4A41217597CE0089A5DB /* Info.plist */,
 			);
 			path = SHRoundViewUITests;
+			sourceTree = "<group>";
+		};
+		483A4A4D217599610089A5DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				483A4A56217599610089A5DB /* SH_RoundView */,
+				483A4A4E217599610089A5DB /* HomePage */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		483A4A4E217599610089A5DB /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				483A4A4F217599610089A5DB /* Controller */,
+				483A4A53217599610089A5DB /* View */,
+				483A4A50217599610089A5DB /* Model */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		483A4A4F217599610089A5DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				483A4A6621759B850089A5DB /* SHViewController.h */,
+				483A4A6721759B850089A5DB /* SHViewController.m */,
+				489653962177528900DD9C0E /* SHBusinessViewController.h */,
+				489653972177528900DD9C0E /* SHBusinessViewController.m */,
+				48965399217752B400DD9C0E /* SHHomeViewController.h */,
+				4896539A217752B400DD9C0E /* SHHomeViewController.m */,
+				48F0832D217EC21F00770B7F /* SHHomeTwoViewController.h */,
+				48F0832E217EC21F00770B7F /* SHHomeTwoViewController.m */,
+				4896539C217752DD00DD9C0E /* SHIncreaseViewController.h */,
+				4896539D217752DD00DD9C0E /* SHIncreaseViewController.m */,
+				489653A1217753AB00DD9C0E /* SHManagementViewController.h */,
+				489653A2217753AB00DD9C0E /* SHManagementViewController.m */,
+				489653A4217753D200DD9C0E /* SHMessageViewController.h */,
+				489653A5217753D200DD9C0E /* SHMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		483A4A50217599610089A5DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				483A4A51217599610089A5DB /* AppDelegate.h */,
+				483A4A52217599610089A5DB /* AppDelegate.m */,
+				483A4A6321759B0C0089A5DB /* HomeModel.h */,
+				483A4A6421759B0C0089A5DB /* HomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		483A4A53217599610089A5DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				483A4A5D21759A0D0089A5DB /* SHRoundview.h */,
+				483A4A5E21759A0D0089A5DB /* SHRoundview.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		483A4A56217599610089A5DB /* SH_RoundView */ = {
+			isa = PBXGroup;
+			children = (
+				483A4A57217599610089A5DB /* Base  */,
+				483A4A5A217599DE0089A5DB /* SHRotationGestureRecognizer.h */,
+				483A4A5B217599DE0089A5DB /* SHRotationGestureRecognizer.m */,
+			);
+			path = SH_RoundView;
+			sourceTree = "<group>";
+		};
+		483A4A57217599610089A5DB /* Base  */ = {
+			isa = PBXGroup;
+			children = (
+				483A4A6021759A3C0089A5DB /* SHBaseViewController.h */,
+				483A4A6121759A3C0089A5DB /* SHBaseViewController.m */,
+			);
+			path = "Base ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +349,7 @@
 				483A4A28217597CD0089A5DB /* LaunchScreen.storyboard in Resources */,
 				483A4A25217597CD0089A5DB /* Assets.xcassets in Resources */,
 				483A4A23217597CA0089A5DB /* Main.storyboard in Resources */,
+				4896538F2177439100DD9C0E /* BtnList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +374,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				483A4A20217597CA0089A5DB /* ViewController.m in Sources */,
+				483A4A6821759B850089A5DB /* SHViewController.m in Sources */,
+				483A4A58217599610089A5DB /* AppDelegate.m in Sources */,
+				4896539B217752B400DD9C0E /* SHHomeViewController.m in Sources */,
+				489653A6217753D200DD9C0E /* SHMessageViewController.m in Sources */,
+				483A4A5C217599DE0089A5DB /* SHRotationGestureRecognizer.m in Sources */,
+				489653982177528900DD9C0E /* SHBusinessViewController.m in Sources */,
+				489653A3217753AB00DD9C0E /* SHManagementViewController.m in Sources */,
+				4896539F217752DD00DD9C0E /* SHIncreaseViewController.m in Sources */,
+				48F0832F217EC21F00770B7F /* SHHomeTwoViewController.m in Sources */,
 				483A4A2B217597CD0089A5DB /* main.m in Sources */,
-				483A4A1D217597CA0089A5DB /* AppDelegate.m in Sources */,
+				483A4A6221759A3C0089A5DB /* SHBaseViewController.m in Sources */,
+				483A4A6521759B0C0089A5DB /* HomeModel.m in Sources */,
+				483A4A5F21759A0D0089A5DB /* SHRoundview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +559,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2RZ63X6NC;
+				GCC_PREFIX_HEADER = "/Users/joyshow/Desktop/2018.10.22-demo/SHRoundView/SHRoundView/SHRoundView-Prefix.pch";
 				INFOPLIST_FILE = SHRoundView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +578,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2RZ63X6NC;
+				GCC_PREFIX_HEADER = "/Users/joyshow/Desktop/2018.10.22-demo/SHRoundView/SHRoundView/SHRoundView-Prefix.pch";
 				INFOPLIST_FILE = SHRoundView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

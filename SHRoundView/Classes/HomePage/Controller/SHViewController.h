@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SHViewController.h
 //  SHRoundView
 //
 //  Created by joyshow on 2018/10/16.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SHBaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface SHViewController : SHBaseViewController
 
 @end
+
 

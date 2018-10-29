@@ -1,0 +1,18 @@
+//
+//  SHRoundView-Prefix.pch
+//  SHRoundView
+//
+//  Created by joyshow on 2018/10/17.
+//  Copyright © 2018年 石虎. All rights reserved.
+//
+
+#ifndef SHRoundView_Prefix_pch
+#define SHRoundView_Prefix_pch
+
+
+#define kScreen_Height [UIScreen mainScreen].bounds.size.height
+#define kScreen_Width  [UIScreen mainScreen].bounds.size.width
+
+#define KColor_lineblue   [UIColor colorWithRed:100/255.f green:152/255.f blue:251/255.f alpha:1.0 ]
+
+#endif /* SHRoundView_Prefix_pch */
